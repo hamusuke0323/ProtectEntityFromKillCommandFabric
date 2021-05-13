@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "entityprotection",
+  "version": "${version}",
+  "name": "PEKC - Protect Entity from Kill Command",
+  "description": "Protect entity from /kill command",
+  "authors": [
+    "hamusuke2303"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pekc-protect-entity-from-kill-command-fabric",
+    "sources": "https://github.com/hamusuke0323/ProtectEntityFromKillCommandFabric"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/entityprotection/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.hamusuke.entityprotection.Main"
+    ]
+  },
+  "mixins": [
+    "entityprotection.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

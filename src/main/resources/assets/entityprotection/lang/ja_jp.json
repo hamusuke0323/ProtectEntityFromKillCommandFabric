@@ -1,0 +1,8 @@
+{
+  "command.pekc.protect.success.single": "%s を保護しました",
+  "command.pekc.protect.success.multiple": "%s 体のエンティティを保護しました",
+  "command.pekc.unprotect.success.single": "%s の保護を解除しました",
+  "command.pekc.unprotect.success.multiple": "%s 体のエンティティの保護を解除しました",
+  "command.pekc.isprotected.true.success": "%s(UUID: %s) は保護されています",
+  "command.pekc.isprotected.false.success": "%s(UUID: %s) は保護されていません"
+}

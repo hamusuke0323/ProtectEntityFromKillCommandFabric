@@ -1,0 +1,8 @@
+{
+  "command.pekc.protect.success.single": "Protected %s",
+  "command.pekc.protect.success.multiple": "Protected %s entities",
+  "command.pekc.unprotect.success.single": "Unprotected %s",
+  "command.pekc.unprotect.success.multiple": "Unprotected %s entities",
+  "command.pekc.isprotected.true.success": "%s(UUID: %s) is protected",
+  "command.pekc.isprotected.false.success": "%s(UUID: %s) is not protected"
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hamusuke.entityprotection.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "KillCommandMixin",
+    "EntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
